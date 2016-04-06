@@ -67,3 +67,4 @@ DerivedDataCache/*
 *.swp
 *.swo
 .ctrlp_cache/
+Content/StarterContent/*
