@@ -30,4 +30,10 @@ public:
 	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject", FriendlyName = "Set Mouse XY", BlueprintInternalUseOnly = "false"), Category = "Mouse Options")
 		void SetMousePosition(float LocationX, float LocationY);
 	
+	//// Mouse Set Cursor Show/Hide and Toggle Mouse Over Events - Simultaneously
+	//UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject", FriendlyName = "Mouse Show/Hide & Toggle Events", BlueprintInternalUseOnly = "false"), Category = "Mouse Options")
+	//	void SetMouseShowHideAndToggleEvents(const )
+	//	
+	//	void SetMousePosition(float LocationX, float LocationY);
+
 };
